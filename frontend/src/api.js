@@ -1,6 +1,6 @@
 // Set VITE_API_URL in your frontend's .env when the backend runs
 // somewhere other than localhost:4000 (e.g. once it's deployed).
-export const API_BASE = import.meta.env?.VITE_API_URL || "export const API_BASE = import.meta.env?.VITE_API_URL || "https://manzili-app.onrender.com";
+export const API_BASE = import.meta.env?.VITE_API_URL || "https://manzili-app.onrender.com";
 
 function authHeaders() {
   const token = localStorage.getItem("manzili_token");
